@@ -1,4 +1,4 @@
-function IsProcessRunnin {
+function IsProcessRunni {
     param (
         [string]$processName
     )
@@ -15,7 +15,7 @@ function IsProcessRunnin {
 
 # Example usage
 $processName = "dropbox"
-$isRunning = Check-ProcessStatus -processName $processName
+$isRunning = Get-ProcessStatus -processName $processName
 
 # Output
 Write-Host "Is process running? $isRunning"
